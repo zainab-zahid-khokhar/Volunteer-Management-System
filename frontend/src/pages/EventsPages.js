@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { Calendar, MapPin, Users, Clock, Edit2, Trash2, Search } from 'lucide-react';
-import { useAuth } from '../../context/AuthContext';
-import api from '../../api/client';
+import { useAuth } from '../context/AuthContext';
+import api from '../api/client';
 import toast from 'react-hot-toast';
 
 // ─── Events List ──────────────────────────────────────────────────────────────

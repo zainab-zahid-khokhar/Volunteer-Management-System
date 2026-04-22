@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate, Link, useSearchParams } from 'react-router-dom';
-import { useAuth } from '../../context/AuthContext';
-import api from '../../api/client';
+import { useAuth } from '../context/AuthContext';
+import api from '../api/client';
 import toast from 'react-hot-toast';
 
 export function LoginPage() {
@@ -30,7 +30,7 @@ export function LoginPage() {
     <div className="auth-page">
       <div className="auth-card">
         <div className="auth-logo">
-          <h1>🤝 VMS</h1>
+          <h1>VMS</h1>
           <p>Volunteer Management System</p>
         </div>
         <form onSubmit={handleSubmit}>
@@ -100,7 +100,7 @@ export function RegisterPage() {
     <div className="auth-page">
       <div className="auth-card">
         <div className="auth-logo">
-          <h1>🤝 VMS</h1>
+          <h1> VMS</h1>
           <p>{inviteToken ? 'Complete Admin Registration' : 'Create Volunteer Account'}</p>
         </div>
         {inviteToken && <div className="alert alert-info">You're registering via an organization invite.</div>}

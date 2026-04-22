@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Search, Send, Building2, Users, ClipboardList, Plus, ToggleLeft, ToggleRight } from 'lucide-react';
-import { useAuth } from '../../context/AuthContext';
-import api from '../../api/client';
+import { useAuth } from '../context/AuthContext';
+import api from '../api/client';
 import toast from 'react-hot-toast';
 import { formatDistanceToNow } from 'date-fns';
 

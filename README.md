@@ -69,6 +69,7 @@ docker-compose up --build
 | Backend API| http://localhost:3001              |
 | API Docs   | http://localhost:3001/api/docs     |
 
+
 **Default Super Admin credentials:**
 ```
 Email:    superadmin@vms.com
